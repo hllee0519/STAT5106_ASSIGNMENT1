@@ -7,7 +7,7 @@ max=int(input("Set a maximum number of this game: "))
 min=1
 
 #set target
-target=random.randint(1,max)
+target=random.randint(min+1,max-1)
 
 #loop
 while True :
